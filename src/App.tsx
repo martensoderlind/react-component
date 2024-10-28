@@ -1,5 +1,10 @@
+import { WeatherCard } from "./weather-card/weatherCard";
 function App() {
-  return <div className="bg-red-300">Hej</div>;
+  return (
+    <>
+      <WeatherCard />
+    </>
+  );
 }
 
 export default App;
